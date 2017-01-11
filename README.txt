@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/lichi/pen/LbKELY.
-
- This is my first pen, so I'm really just fooling around with the editor. 
+I'm getting married in September, so this website is for sharing information for that upcoming event. Thank you all!
