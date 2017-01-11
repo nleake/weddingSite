@@ -1,0 +1,14 @@
+.header {
+  margin: auto;
+  text-align: center;
+}
+.hero-image {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
+.nav {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
