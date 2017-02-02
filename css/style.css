@@ -1,6 +1,44 @@
-.header {
-  margin: auto;
-  text-align: center;
+body {
+	background-color: silver;
+}
+h1 {
+	font-size: 60px;
+}
+p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+}
+li {
+	font-weight: normal;
+	font-size: 13px;
+	font-family: 'Cabin', sans-serif;	
+
+}
+h1, footer, .saveTheDate {
+	font-family: 'Great Vibes', cursive;
+	color: #008B8B;
+}
+h2 {
+	font-family: 'Cabin', sans-serif;
+	color: #008B8B;
+}
+div {
+	background-color: #fff;
+}
+@media only screen and (max-width: 720px) {
+    nav li {
+	border-top: 1px solid #000000;
+	}
+}
+nav li {
+	color: #ffffff;
+}
+nav a {
+	color: #ffffff;
+}
+header {
+	margin: auto;
+	text-align: center;
 }
 .hero-image {
   max-width: 600px;
@@ -11,4 +49,25 @@
   display: inline-block;
   vertical-align: top;
   text-align: center;
+  background-color: #008B8B;
+}
+.thumbnail {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bodyText{
+	margin-top: 30px;
+}
+@media only screen and (min-width: 800px) {
+    .bodyText {
+		margin-right: 150px;
+	}
+}
+.saveTheDate {
+	margin-top: 30px;
+}
+.shadow {
+  -webkit-box-shadow: 0px 3px 5px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 3px 5px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 3px 5px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
